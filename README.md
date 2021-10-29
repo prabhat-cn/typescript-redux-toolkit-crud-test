@@ -1,4 +1,6 @@
 ## Doc
+https://jestjs.io/docs/tutorial-react
+
 https://www.pluralsight.com/guides/how-to-test-react-components-in-typescript
 
 
@@ -36,3 +38,12 @@ https://github.com/enzymejs/enzyme/issues/2282
 https://stackoverflow.com/questions/65082197/enzyme-test-error-with-redux-hooks-could-not-find-react-redux-context-value-p
 
 https://www.codegrepper.com/code-examples/javascript/jest+could+not+find+react-redux+context+value%3B+please+ensure+the+component+is+wrapped+in+a+%3CProvider%3E
+
+## Modal popup test
+https://remarkablemark.org/blog/2017/05/17/testing-react-modal/
+
+## Type to write class, id, tag && Modal popup test
+
+https://stackoverflow.com/questions/55660127/how-to-write-a-unit-test-to-check-if-modal-shows-up-after-clicking-some-link
+
+https://stackoverflow.com/questions/37381916/error-this-method-is-only-meant-to-be-run-on-single-node-0-found-instead

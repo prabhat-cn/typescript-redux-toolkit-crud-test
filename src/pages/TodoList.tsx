@@ -13,7 +13,7 @@ import {
 } from '../store/actions/todoAction';
 import API from '../api';
 
-const TodoList: React.FC = () => {
+const TodoList: React.FC = (props) => {
   const [modal, setModal] = useState(false);
   const [openViewModal, setViewOpenModal] = useState(false);
   const [viewTodoData, setViewTodoData] = useState<Todo>();
@@ -72,7 +72,10 @@ const TodoList: React.FC = () => {
   };
   return (
     <div data-test="component-todolist">
-      <button onClick={toggle}>Add Todo</button>&nbsp;
+      <button data-test="add-click" onClick={toggle}>
+        Add Todo
+      </button>
+      &nbsp;
       <table className="table table-hover">
         <thead>
           <tr>
@@ -123,7 +126,7 @@ const TodoList: React.FC = () => {
         </tbody>
       </table>
       {/* Add/Edit Modal Start */}
-      <Modal isOpen={modal} toggle={toggle}>
+      <Modal isOpen={modal} toggle={toggle} data-test="add-modal">
         <ModalHeader toggle={toggle}>Modal title</ModalHeader>
 
         <Formik
