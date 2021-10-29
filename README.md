@@ -39,6 +39,14 @@ https://stackoverflow.com/questions/65082197/enzyme-test-error-with-redux-hooks-
 
 https://www.codegrepper.com/code-examples/javascript/jest+could+not+find+react-redux+context+value%3B+please+ensure+the+component+is+wrapped+in+a+%3CProvider%3E
 
+https://www.albertgao.xyz/2019/11/05/how-to-test-react-redux-hooks-via-jest/
+
+https://medium.com/@szpytfire/react-redux-testing-mocking-useselector-and-usedispatch-e004c3f2b2e0
+
+https://pretagteam.com/question/i-am-trying-to-test-useselector-and-usedispatch-hooks-using-jest-how-i-can-do-that
+
+https://medium.com/netscape/testing-a-react-redux-app-using-jest-and-enzyme-b349324803a9
+
 ## Modal popup test
 https://remarkablemark.org/blog/2017/05/17/testing-react-modal/
 
@@ -46,4 +54,4 @@ https://remarkablemark.org/blog/2017/05/17/testing-react-modal/
 
 https://stackoverflow.com/questions/55660127/how-to-write-a-unit-test-to-check-if-modal-shows-up-after-clicking-some-link
 
-https://stackoverflow.com/questions/37381916/error-this-method-is-only-meant-to-be-run-on-single-node-0-found-instead
+https://stackoverflow.com/questions/37381916/error-this-method-is-only-meant-to-be-run-on-single-node-0-found-instead\
